@@ -6,7 +6,7 @@ services:
     container_name: strocz-dashboard
     restart: unless-stopped
     ports:
-      - "80:80"
+      - "8080:80"
     # Uncomment below if you want to use with a reverse proxy
     # expose:
     #   - "80"
